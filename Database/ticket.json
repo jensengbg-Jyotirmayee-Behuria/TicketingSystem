@@ -1,0 +1,39 @@
+{
+  "Tickets": [
+    {
+      "id": 2,
+      "name": "Pelle trubadur",
+      "date": "29 MAR",
+      "time": "22:00 - 00:00",
+      "ticketId": "GQB963",
+      "verified": false
+    },
+    {
+      "id": 1,
+      "name": "Lasse-Stefanz",
+      "location": "Kjell härnqvistsalen",
+      "date": "21 MAR",
+      "time": "19:00 - 21:00",
+      "ticketId": "UQR766",
+      "verified": false
+    },
+    {
+      "id": 1,
+      "name": "Lasse-Stefanz",
+      "location": "Kjell härnqvistsalen",
+      "date": "21 MAR",
+      "time": "19:00 - 21:00",
+      "ticketId": "WQQ183",
+      "verified": false
+    },
+    {
+      "id": 1,
+      "name": "Lasse-Stefanz",
+      "location": "Kjell härnqvistsalen",
+      "date": "21 MAR",
+      "time": "19:00 - 21:00",
+      "ticketId": "GEG746",
+      "verified": true
+    }
+  ]
+}

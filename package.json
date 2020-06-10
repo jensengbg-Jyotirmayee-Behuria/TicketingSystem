@@ -1,0 +1,31 @@
+{
+  "name": "ticketingsystem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "lowdb": "^1.0.0",
+    "uuid": "^8.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jensengbg-Jyotirmayee-Behuria/TicketingSystem.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jensengbg-Jyotirmayee-Behuria/TicketingSystem/issues"
+  },
+  "homepage": "https://github.com/jensengbg-Jyotirmayee-Behuria/TicketingSystem#readme"
+}

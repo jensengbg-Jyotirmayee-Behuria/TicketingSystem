@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="CSS/Style.css" type="text/css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Mono|Sansita+One|Fira+Sans&display=swap">
+    <title> Where its @ </title>
+</head>
+
+<body>
+    <div class = "admin-wrapper">
+        <button class = "loginPageButton"><a href="loginPage.html">LOGIN</a></button>
+        <section class="logo">
+            <img src="./images/logo-colour.png" alt="logo">
+        </section>
+       <section class = "admin-leftBox"> 
+            <h1 class = "mainHeading"> EVENTS</h1>
+            <section class = "events">
+                <div class = "allEventAdded"></div>         
+            </section>
+        </section>
+        <section class = "admin-rightBox"> 
+            <h1 class = "adminh1"> Add Events</h1>
+            <label for="name" class="eventInput">Event Name</label>
+             <input type="text" placeholder="Event Name" id="eventName">
+            <label for="location" class="eventInput">Place</label>
+             <input type="text" placeholder="Event Name" id="place">
+            <label for="price" class="eventInput">Price</label>
+             <input type="text" placeholder="Event Name" id="price">
+           
+             <label for="time" class="eventInput">Date</label>
+             <input type="text" placeholder="Date" id="date">
+            <label for="location" class="eventInput">Place</label>
+             <input type="text" placeholder="Place" id="place">
+            <label for="price" class="eventInput">No Of Tickets</label>
+             <input type="text" placeholder="Event Name" id="howmany">             
+
+            <button  id="addEventBtn" id="">Add Event</button>
+        </section>
+    </div>
+    
+    <!--End of wrapper---->
+
+    <!--Javascript-->
+    <script src="script/admin.js" type="module"></script>
+    
+</body>
+
+</html>  

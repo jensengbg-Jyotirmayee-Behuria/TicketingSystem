@@ -1,0 +1,46 @@
+{
+  "Events": [
+    {
+      "id": 1,
+      "name": "Lasse-Stefanz",
+      "location": "Kjell härnqvistsalen",
+      "time": "19:00 - 21:00",
+      "price": 350,
+      "tickets": 260,
+      "date": "21 MAR",
+      "ticketId": "MRW66",
+      "verified": false
+    },
+    {
+      "id": 2,
+      "name": "Pelle trubadur",
+      "location": "Pubelipuben",
+      "time": "22:00 - 00:00",
+      "price": 110,
+      "tickets": 74,
+      "date": "29 MAR",
+      "ticketId": "ARC153",
+      "verified": false
+    },
+    {
+      "id": 3,
+      "name": "Kajsas kör",
+      "location": "Götaplatsen",
+      "time": "15:00 - 16:00",
+      "price": 99,
+      "tickets": 994,
+      "ticketId": "MBZ56",
+      "date": "10 APR"
+    },
+    {
+      "id": 4,
+      "name": "Klubb Untz",
+      "location": "Din favoritkällare",
+      "time": "22:00 - du tröttnar",
+      "price": 150,
+      "tickets": 116,
+      "ticketId": "WYN719",
+      "date": "17 APR"
+    }
+  ]
+}
