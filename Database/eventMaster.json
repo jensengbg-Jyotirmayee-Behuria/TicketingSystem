@@ -6,7 +6,7 @@
       "location": "Kjell härnqvistsalen",
       "time": "19:00 - 21:00",
       "price": 350,
-      "tickets": 260,
+      "tickets": 256,
       "date": "21 MAR",
       "ticketId": "MRW66",
       "verified": false
@@ -17,7 +17,7 @@
       "location": "Pubelipuben",
       "time": "22:00 - 00:00",
       "price": 110,
-      "tickets": 74,
+      "tickets": 69,
       "date": "29 MAR",
       "ticketId": "ARC153",
       "verified": false
@@ -28,7 +28,7 @@
       "location": "Götaplatsen",
       "time": "15:00 - 16:00",
       "price": 99,
-      "tickets": 994,
+      "tickets": 993,
       "ticketId": "MBZ56",
       "date": "10 APR"
     },
