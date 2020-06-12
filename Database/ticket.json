@@ -6,7 +6,7 @@
       "date": "29 MAR",
       "time": "22:00 - 00:00",
       "ticketId": "GQB963",
-      "verified": false
+      "verified": true
     },
     {
       "id": 1,
@@ -114,6 +114,287 @@
       "date": "21 MAR",
       "time": "19:00 - 21:00",
       "ticketId": "IBF775",
+      "verified": true
+    },
+    {
+      "id": 1,
+      "name": "Lasse-Stefanz",
+      "location": "Kjell härnqvistsalen",
+      "date": "21 MAR",
+      "time": "19:00 - 21:00",
+      "ticketId": "GBT402",
+      "verified": false
+    },
+    {
+      "id": 1,
+      "name": "Lasse-Stefanz",
+      "location": "Kjell härnqvistsalen",
+      "date": "21 MAR",
+      "time": "19:00 - 21:00",
+      "ticketId": "JEV240",
+      "verified": false
+    },
+    {
+      "id": 1,
+      "name": "Lasse-Stefanz",
+      "location": "Kjell härnqvistsalen",
+      "date": "21 MAR",
+      "time": "19:00 - 21:00",
+      "ticketId": "JPF885",
+      "verified": false
+    },
+    {
+      "id": 1,
+      "name": "Lasse-Stefanz",
+      "location": "Kjell härnqvistsalen",
+      "date": "21 MAR",
+      "time": "19:00 - 21:00",
+      "ticketId": "HKD769",
+      "verified": false
+    },
+    {
+      "id": 1,
+      "name": "Lasse-Stefanz",
+      "location": "Kjell härnqvistsalen",
+      "date": "21 MAR",
+      "time": "19:00 - 21:00",
+      "ticketId": "WHG950",
+      "verified": false
+    },
+    {
+      "id": 1,
+      "name": "Lasse-Stefanz",
+      "location": "Kjell härnqvistsalen",
+      "date": "21 MAR",
+      "time": "19:00 - 21:00",
+      "ticketId": "IVC220",
+      "verified": false
+    },
+    {
+      "id": 1,
+      "name": "Lasse-Stefanz",
+      "location": "Kjell härnqvistsalen",
+      "date": "21 MAR",
+      "time": "19:00 - 21:00",
+      "ticketId": "YDB30",
+      "verified": false
+    },
+    {
+      "id": 2,
+      "name": "Pelle trubadur",
+      "location": "Pubelipuben",
+      "date": "29 MAR",
+      "time": "22:00 - 00:00",
+      "ticketId": "OEY451",
+      "verified": false
+    },
+    {
+      "id": 1591905356877,
+      "name": "Dance For All",
+      "location": "Göteborg",
+      "date": "12 JUL",
+      "time": "12:00 - 13:00",
+      "ticketId": "IDB882",
+      "verified": false
+    },
+    {
+      "id": 1,
+      "name": "Lasse-Stefanz",
+      "location": "Kjell härnqvistsalen",
+      "date": "21 MAR",
+      "time": "19:00 - 21:00",
+      "price": 350,
+      "ticketId": "RND249",
+      "verified": false
+    },
+    {
+      "id": 1591951066145,
+      "name": "New Dance ",
+      "location": "Göteborg",
+      "date": "12 JUL",
+      "time": "12:00-13:00",
+      "price": "278",
+      "ticketId": "XPE340",
+      "verified": false
+    },
+    {
+      "id": 1591951066145,
+      "name": "New Dance ",
+      "location": "Göteborg",
+      "date": "12 JUL",
+      "time": "12:00-13:00",
+      "price": "278",
+      "ticketId": "DTY306",
+      "verified": true
+    },
+    {
+      "id": 1,
+      "name": "Lasse-Stefanz",
+      "location": "Kjell härnqvistsalen",
+      "date": "21 MAR",
+      "time": "19:00 - 21:00",
+      "price": 350,
+      "ticketId": "FSK338",
+      "verified": false
+    },
+    {
+      "id": 2,
+      "name": "Pelle trubadur",
+      "location": "Pubelipuben",
+      "date": "29 MAR",
+      "time": "22:00 - 00:00",
+      "price": 110,
+      "ticketId": "PGS764",
+      "verified": false
+    },
+    {
+      "id": 2,
+      "name": "Pelle trubadur",
+      "location": "Pubelipuben",
+      "date": "29 MAR",
+      "time": "22:00 - 00:00",
+      "price": 110,
+      "ticketId": "PZF121",
+      "verified": false
+    },
+    {
+      "id": 3,
+      "name": "Kajsas kör",
+      "location": "Götaplatsen",
+      "date": "10 APR",
+      "time": "15:00 - 16:00",
+      "price": 99,
+      "ticketId": "HUW231",
+      "verified": false
+    },
+    {
+      "id": 2,
+      "name": "Pelle trubadur",
+      "location": "Pubelipuben",
+      "date": "29 MAR",
+      "time": "22:00 - 00:00",
+      "price": 110,
+      "ticketId": "MYV689",
+      "verified": false
+    },
+    {
+      "id": 1,
+      "name": "Lasse-Stefanz",
+      "location": "Kjell härnqvistsalen",
+      "date": "21 MAR",
+      "time": "19:00 - 21:00",
+      "price": 350,
+      "ticketId": "JES104",
+      "verified": false
+    },
+    {
+      "id": 3,
+      "name": "Kajsas kör",
+      "location": "Götaplatsen",
+      "date": "10 APR",
+      "time": "15:00 - 16:00",
+      "price": 99,
+      "ticketId": "KPP257",
+      "verified": false
+    },
+    {
+      "id": 3,
+      "name": "Kajsas kör",
+      "location": "Götaplatsen",
+      "date": "10 APR",
+      "time": "15:00 - 16:00",
+      "price": 99,
+      "ticketId": "IGJ991",
+      "verified": false
+    },
+    {
+      "id": 2,
+      "name": "Pelle trubadur",
+      "location": "Pubelipuben",
+      "date": "29 MAR",
+      "time": "22:00 - 00:00",
+      "price": 110,
+      "ticketId": "LKI761",
+      "verified": false
+    },
+    {
+      "id": 1,
+      "name": "Lasse-Stefanz",
+      "location": "Kjell härnqvistsalen",
+      "date": "21 MAR",
+      "time": "19:00 - 21:00",
+      "price": 350,
+      "ticketId": "XTZ897",
+      "verified": false
+    },
+    {
+      "id": 2,
+      "name": "Pelle trubadur",
+      "location": "Pubelipuben",
+      "date": "29 MAR",
+      "time": "22:00 - 00:00",
+      "price": 110,
+      "ticketId": "BJZ117",
+      "verified": false
+    },
+    {
+      "id": 2,
+      "name": "Pelle trubadur",
+      "location": "Pubelipuben",
+      "date": "29 MAR",
+      "time": "22:00 - 00:00",
+      "price": 110,
+      "ticketId": "CZO530",
+      "verified": false
+    },
+    {
+      "id": 1,
+      "name": "Lasse-Stefanz",
+      "location": "Kjell härnqvistsalen",
+      "date": "21 MAR",
+      "time": "19:00 - 21:00",
+      "price": 350,
+      "ticketId": "BXV100",
+      "verified": false
+    },
+    {
+      "id": 1,
+      "name": "Lasse-Stefanz",
+      "location": "Kjell härnqvistsalen",
+      "date": "21 MAR",
+      "time": "19:00 - 21:00",
+      "price": 350,
+      "ticketId": "MUT415",
+      "verified": false
+    },
+    {
+      "id": 1,
+      "name": "Lasse-Stefanz",
+      "location": "Kjell härnqvistsalen",
+      "date": "21 MAR",
+      "time": "19:00 - 21:00",
+      "price": 350,
+      "ticketId": "YXH445",
+      "verified": false
+    },
+    {
+      "id": 1,
+      "name": "Lasse-Stefanz",
+      "location": "Kjell härnqvistsalen",
+      "date": "21 MAR",
+      "time": "19:00 - 21:00",
+      "price": 350,
+      "ticketId": "UHO131",
+      "verified": false
+    },
+    {
+      "id": 2,
+      "name": "Pelle trubadur",
+      "location": "Pubelipuben",
+      "date": "29 MAR",
+      "time": "22:00 - 00:00",
+      "price": 110,
+      "ticketId": "TWG160",
       "verified": true
     }
   ]

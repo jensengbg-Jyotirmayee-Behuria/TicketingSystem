@@ -6,7 +6,8 @@
       "location": "Kjell härnqvistsalen",
       "time": "19:00 - 21:00",
       "price": 350,
-      "tickets": 256,
+      "tickets": 241,
+      "soldticket": 5,
       "date": "21 MAR",
       "ticketId": "MRW66",
       "verified": false
@@ -17,7 +18,8 @@
       "location": "Pubelipuben",
       "time": "22:00 - 00:00",
       "price": 110,
-      "tickets": 69,
+      "tickets": 60,
+      "soldticket": 3,
       "date": "29 MAR",
       "ticketId": "ARC153",
       "verified": false
@@ -28,7 +30,8 @@
       "location": "Götaplatsen",
       "time": "15:00 - 16:00",
       "price": 99,
-      "tickets": 993,
+      "tickets": 990,
+      "soldticket": 0,
       "ticketId": "MBZ56",
       "date": "10 APR"
     },
@@ -39,8 +42,31 @@
       "time": "22:00 - du tröttnar",
       "price": 150,
       "tickets": 116,
+      "soldticket": 0,
       "ticketId": "WYN719",
       "date": "17 APR"
+    },
+    {
+      "id": 1591951066145,
+      "name": "New Dance ",
+      "location": "Göteborg",
+      "date": "12 JUL",
+      "time": "12:00-13:00",
+      "price": "278",
+      "tickets": 10,
+      "soldticket": 0,
+      "ticketId": "TCX408"
+    },
+    {
+      "id": 1591990914355,
+      "name": "",
+      "location": "",
+      "date": "",
+      "time": "-",
+      "price": "",
+      "tickets": "",
+      "soldticket": 0,
+      "ticketId": "YNR486"
     }
   ]
 }

@@ -1,5 +1,6 @@
 const low = require("lowdb");
 const FileSync = require("lowdb/adapters/FileSync");
+ 
 const eventAdapter = new FileSync("./Database/eventMaster.json");
 const orderAdapter = new FileSync("./Database/order.json");
 const ticketAdapter = new FileSync("./Database/ticket.json");
@@ -29,6 +30,32 @@ exports.addItemInTickets = (ticketId ) => {
 
     return alertMessage;
 } 
+function convertToEvent(input)
+{
+    let uniqueId=Date.now();
+    let ticketId=generateTicketNumber();
+    event = {
+        id : uniqueId, 
+        name : input.name ,
+        location : input.location ,
+        date : input.date,
+        time:input.time,
+        price:input.price,
+        tickets:input.tickets,
+        soldticket:0,
+        ticketId:ticketId
+    };
+
+    return event;
+
+     
+}
+
+exports.addEvent=(eventObject) =>
+{
+    let objectToStore=convertToEvent(eventObject);       
+    eventDb.get('Events').push(objectToStore).write();
+}
 
 //-------------------------------------------ADD ITEM TO Orders------------------------------------------- */
 exports.addItemInOrders = (searchTerm) => 
@@ -55,19 +82,15 @@ exports.addItemInOrders = (searchTerm) =>
         alertMessage = {
             status : 'ERROR', message : "Invalid product ID. Enter correct ID. " };            
     } 
-           
-     
+                
         eventDb.get('Events')
                 .find({ id: itemtoAdd })
                 .assign({ tickets: ticketIndexToChange })
                 .write(); //change the ticket number when adding a ticket in orders
-        
-               
+                       
         orderDb.get('Orders').push(matchProduct).write();
         
-
         orderDb.get("orderdb is now added")
-
          
         alertMessage = {
             status : 'SUCCESS', message : "Item added in the Orders"};
@@ -76,8 +99,6 @@ exports.addItemInOrders = (searchTerm) =>
     
     return alertMessage;
 } 
-
-
 
 exports.getAllEvents = () => {
     return eventDb.get('Events').value();
@@ -128,6 +149,7 @@ function createNewTicketObjectFromEvent(event)
         location : event.location ,
         date : event.date,
         time:event.time,
+        price:event.price,
         ticketId : generateTicketNumber(),
         verified : false
     };
@@ -180,9 +202,18 @@ exports.addItemInTickets = (index ) => {
     const newTicket=createNewTicketObjectFromEvent(checkInOrders); 
     console.log("New Ticket are " + newTicket);
     const matchProduct = ticketDb.get('Tickets').push(newTicket).write();
+    let event=eventDb.get('Events')
+                     .filter({ id: checkInOrders.id })
+                     .map('soldticket').value();
+   
+     
+    console.log("sold ticket" + event);        
+    let soldTicketUpdate=parseInt(event)+1;
     
-    console.log(matchProduct);
-    
+    eventDb.get('Events')
+           .find({ id: checkInOrders.id })
+            .assign({soldticket:soldTicketUpdate})
+            .write();
     alertMessage = {
         status : 'SUCCESS', message : "Item added in Tickets" };
         console.log(alertMessage);
