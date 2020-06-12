@@ -438,13 +438,11 @@ border-radius: 3px;
 }
 /*
 .ticketDate {
-
 position: absolute;
 width: 60px;
 height: 0px;
 left: 133px;
 top: 379px;
-
 border: 1px dashed rgba(0, 0, 0, 0.4);
 transform: rotate(-90deg);
 }*/
@@ -656,8 +654,8 @@ button a {
   }
   .admin-wrapper {
     position: relative;
-    width: 1440px;
-    height: 1024px;
+    width: 1500px;
+    height: 1000px;
 
     background: #231F42;
   }
@@ -686,13 +684,14 @@ button a {
     position: absolute;
     width: 432px;
     height: 378px;
-    left: 878px;
+    left: 230px;
     top: 202px;
+    
     
     background: rgba(0, 0, 0, 0.3);
   }
 
-  .adminh1 {
+  .admin{
     position: relative;
     width: 140px;
     height: 30px;
@@ -723,10 +722,10 @@ button a {
 }
 .createEventButton {
   position: relative;
-  width: 260px;
+  width: 376px;
   height: 30px;
-  left: 0px;
-  top: 342px;
+  left: 25px;
+  top: 0px;
   background: #F56B9A;
   border-radius: 3px;
 }

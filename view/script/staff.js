@@ -27,6 +27,7 @@ async function login(username, password) {
         method: 'POST', 
         body: JSON.stringify(obj), 
         headers: { 'Content-Type': 'application/json' } });
+        
     const data = await response.json();
     console.log(data);
     return await data;

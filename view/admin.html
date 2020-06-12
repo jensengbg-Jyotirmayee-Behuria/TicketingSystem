@@ -13,32 +13,24 @@
 <body>
     <div class = "admin-wrapper">
         <button class = "loginPageButton"><a href="loginPage.html">LOGIN</a></button>
+        
         <section class="logo">
             <img src="./images/logo-colour.png" alt="logo">
         </section>
-       <section class = "admin-leftBox"> 
-            <h1 class = "mainHeading"> EVENTS</h1>
-            <section class = "events">
-                <div class = "allEventAdded"></div>         
-            </section>
-        </section>
+        
         <section class = "admin-rightBox"> 
-            <h1 class = "adminh1"> Add Events</h1>
-            <label for="name" class="eventInput">Event Name</label>
-             <input type="text" placeholder="Event Name" id="eventName">
-            <label for="location" class="eventInput">Place</label>
-             <input type="text" placeholder="Event Name" id="place">
-            <label for="price" class="eventInput">Price</label>
-             <input type="text" placeholder="Event Name" id="price">
-           
-             <label for="time" class="eventInput">Date</label>
-             <input type="text" placeholder="Date" id="date">
-            <label for="location" class="eventInput">Place</label>
-             <input type="text" placeholder="Place" id="place">
-            <label for="price" class="eventInput">No Of Tickets</label>
-             <input type="text" placeholder="Event Name" id="howmany">             
+            <p id="addEventResponse" class="hideresponse"> 
+            <h1 class = "admin"> Add Events</h1>             
+            <input type="text" placeholder="Name" id="eventName">            
+            <input type="text" placeholder="Where" id="place">
+            <input type="text" placeholder="Date" id="date">
+            <input type="text" placeholder="From Time" class="halfInputBox" id="fromTime">
+            <input type="text" placeholder="To Time" class="halfInputBox" size="4" id="toTime">
+            <input type="text" placeholder="Tickets" class="halfInputBox" id="howmany">
+            <input type="text" placeholder="Price" class="halfInputBox" id="price">         
+            
 
-            <button  id="addEventBtn" id="">Add Event</button>
+            <button class="createEventButton"  id="addEventBtn" id="addEventBtn">Add Event</button>
         </section>
     </div>
     
