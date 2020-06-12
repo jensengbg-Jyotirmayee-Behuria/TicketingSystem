@@ -11,28 +11,39 @@ const cors = require('cors');
 const loginRouter = require('./Routes/login');
 const createRouter = require('./Routes/create');
 const accountRouter = require('./Routes/account');
+const eventRouter = require('./Routes/apiEndpoints');
 
 const app = express();
 
 const database = require('./Database/database');
 const endpoints = require('./Routes/apiEndpoints');
  
-endpoints(app);
- 
+//endpoints(app);
+
+
 
 app.use(express.static('view'));
 app.use(express.json());
 app.use(cookieParser());
 app.use(bodyParser.json());
+
+
 app.use(cors());
 
 app.use('/whereitsat/account', accountRouter);
 app.use('/whereitsat/create', createRouter);
 app.use('/whereitsat/account', accountRouter);
 app.use('/whereitsat/auth',loginRouter);
+app.use('/whereitsat',eventRouter);
+
+ 
+
 database.initialize();
 
 app.listen(8001, () => {  
-    console.log("Server started with port 8001")     
+    console.log("Server started with port 8001")    
+
     
+
+
 });
