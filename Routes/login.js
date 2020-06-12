@@ -5,6 +5,13 @@ const router = new Router();
 const { getUserFromUsername } = require('../models/database-functions');
 const { matchPassword } = require('../models/hashPassword');
 
+router.post('/admin/event/add', async (req, res) => {
+
+    const body = JSON.parse(req.body);
+    console.log(body);
+});
+
+
 router.post('/login', async (req, res) => {
     const body = req.body;
     console.log(body);
